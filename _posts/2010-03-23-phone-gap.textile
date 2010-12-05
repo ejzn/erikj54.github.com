@@ -1,0 +1,10 @@
+---
+layout: post
+title: Phone Gap
+---
+
+I just came across this today through the Boris...<a href="http://www.phonegap.com/">Phone Gap</a>. It seems like a really cool project. As the name suggest it's bridging the gap between phones. I would love to try it out. Maybe once I get some time...and once I get a smartphone ;). Phone Gap is essentially a framework that let's you write HTML and JavaScript for the IPhone. Blackberry etc. The code runs cross platform. Not to mention you can port existing apps to mobile phones since you already have the code :). Anywho check <a href="http://www.phonegap.com/">this</a> out it's really neat.
+
+This raises an interesting question that I'll ponder. With Google's new OS being basically a web browser, what does this bode for the future of JavaScript and HTML5? Is the future in HTML 5? It seems that way. With Phone Gap you can now write HTML and JavaScript without having to write Objective-C. That's neat.
+
+It seems more and more there are conversion technologies, Python -> JavaScript / HTML,  JavaScript / HTML -> Objective C it's a neat trend.

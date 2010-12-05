@@ -1,0 +1,13 @@
+---
+layout: post
+title: Desktop vs Web
+---
+
+
+Desktop applications are powerful. The issue is they come at a cost, both in price and in time. For the price of a desktop app your either get a download or a CD /DVD. Now this is all well and good but it really is time consuming to perform. Web applications allow us to reduce our time spent learning and using applications that we must load, boot and learn. Consider this: if I'm putting on a three day event for a music festival will i buy a management system? No. Will I use an online system? Maybe if it's good. Will I use a tool set that I already have available? Yes. The challenge for web applications is to leverage the maybe. Instead of building mediocre apps that require steep learning curves with advanced features resort to an excel approach. Microsoft has two products for data management and storage. Excel and Access, which is used more? Excel. Why? It's simple and less difficult to use. 
+
+<img src="http://erikjohnson.ca/wp-content/uploads/2010/01/exelvsaccess.png" alt="exelvsaccess" title="exelvsaccess" width="350" height="200" class="alignnone size-full wp-image-57" /> 
+
+I find it strange we put down software programs on our resumes as advantages over other potential employees. I sure as hell wouldn't hire a full time employee over his adobe experience. I may pay him to design me something he can do better than I. The point is make the feature set simple and the users will use it and love it. No clutter and no imaginary requirements.
+
+If you want a good book to read on a subject not entirely related to this subject check <a href="http://sethgodin.typepad.com/">this</a> out.
