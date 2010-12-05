@@ -115,3 +115,13 @@ ul.contact-main
 	margin-left:-30px;
 }
 
+/* Styling for Posts *
+ *
+ */
+
+div.post
+{
+	min-height:300px;
+	margin-bottom:20px;
+}
+
