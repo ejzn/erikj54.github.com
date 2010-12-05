@@ -125,3 +125,11 @@ div.post
 	margin-bottom:20px;
 }
 
+/* Twitter styling */
+div#twitter-box
+{
+	margin-top:-150px;
+	width:300px;
+	height:400px;
+	float:left;
+}

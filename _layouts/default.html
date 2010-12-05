@@ -34,13 +34,39 @@
 
 <div id="disqus_thread"></div>
 	</div>
-<div id=”twitter_update_list”>
-</div>
-<script type=”text/javascript” src="http://twitter.com/javascripts/blogger.js">
+	</div>
+<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<div id="twitter-box">
+<script>
+new TWTR.Widget({
+version: 2,
+type: 'profile',
+rpp: 4,
+interval: 6000,
+width: 200,
+height: 300,
+theme: {
+shell: {
+background: '#fff',
+color: '#000'
+},
+tweets: {
+background: '#aaa',
+color: '#000',
+links: '#557799'
+}
+},
+features: {
+scrollbar: false,
+loop: false,
+live: false,
+hashtags: true,
+timestamp: true,
+avatars: false,
+behavior: 'all'
+		  }
+}).render().setUser('erikj54').start();
 </script>
-<script type=”text/javascript” src="http://twitter.com/statuses/user_timeline/erikj54.json?callback=twitterCallback2&amp;count=1">
-</script>
-
 </div>
 
 
