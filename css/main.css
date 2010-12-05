@@ -28,10 +28,8 @@ div.header img{
 div.main-content
 	{
 		height:80%;
-		width:550px;
+		width:750px;
 		padding:20px;
-		border-right: 1px dashed #aaa;
-		border-left: 1px dashed #aaa;
 		margin:auto;
 	}
 
@@ -45,6 +43,16 @@ div.main
 		padding:20px;
 	}
 
+h2 a
+{
+	font-size:35px;
+	text-decoration:none;
+	color: #B4C24B;
+}
+h2 a:hover
+{
+	color: #557799;
+}
 h1, h2, h3, p 
 {
 	font-family: 'Josefin Sans';
@@ -84,14 +92,15 @@ div#links
 #nav-links li
 	{
 		float:left;
+		font-family: 'Reenie Beanie';
 		padding:4px;
 		padding-right:6px;
 		border-right:1px solid #666;
+		font-size:2em;
 	}
 #nav-links li a
 	{
 		float:left
-		font-family: 'Josefin Sans';
 		display:block;
 		text-decoration:none;	
 		color:#111;
