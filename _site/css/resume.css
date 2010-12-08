@@ -1,0 +1,143 @@
+/*
+ * Main.css : styling for main page
+ *				of erikjohnson.ca
+ */
+
+div.container
+	{
+		height:		400px;
+		width:		300px;
+		width:		1024px;
+		display:	block;
+		margin:		auto;
+		padding:	5px;
+	}
+
+div.header
+{
+	height:50px;
+	width:100%;
+	padding:10px;
+	background:#ccc;
+}
+div.header h3 
+{
+	float:left;
+}
+div.header h4
+{
+	float:right;
+}
+div.header img
+{
+	float:left;
+}
+
+div.main-content
+{
+	height:80%;
+	width:750px;
+	padding:20px;
+	margin:auto;
+}
+
+div.main
+	{
+		width:450px;
+		height:410px;
+		margin-left:50px;
+		margin-top:30px;
+		float:left;
+		padding:20px;
+	}
+
+h2 a
+{
+	font-size:35px;
+	text-decoration:none;
+	color: #B4C24B;
+}
+h2 a:hover
+{
+	color: #557799;
+}
+h1, h2, h3, h4, p 
+{
+	font-family: 'Josefin Sans';
+}
+#site-logo
+	{
+		height:200px;
+		width:200px;
+		margin-top:100px;
+		float:left;
+	}
+#site-logo p	
+	{
+		padding:20px;
+		font-size:0.7em;
+		text-transform:uppercase;
+
+	}
+#site-logo a {
+	outline:none;
+}
+
+/* Main links */
+
+div#links
+{
+	float:right;
+	width:400px;
+	height:65px;
+}
+#nav-links
+	{
+		width:350px;
+		height:60px;
+		list-style:none;
+	}
+#nav-links li
+	{
+		float:left;
+		font-family: 'Reenie Beanie';
+		padding:4px;
+		padding-right:6px;
+		border-right:1px solid #666;
+		font-size:2em;
+	}
+#nav-links li a
+	{
+		float:left
+		display:block;
+		text-decoration:none;	
+		color:#111;
+	}
+ul.contact-main
+{
+	width:300px;
+	font-family: 'Reenie Beanie';
+	font-size:25px;
+	list-style:none;
+	margin-top:-10px;
+	margin-left:-30px;
+}
+
+/* Styling for Posts *
+ *
+ */
+
+div.post
+{
+	min-height:300px;
+	margin-bottom:20px;
+}
+
+/* Twitter styling */
+div#twitter-box
+{
+	margin-top:-150px;
+	width:300px;
+	height:400px;
+	float:left;
+}
