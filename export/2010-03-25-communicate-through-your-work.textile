@@ -1,0 +1,10 @@
+---
+layout: post
+title: Communicate through your work
+---
+
+We've all heard the old adage that your code should be your comments. So why not have your work be your communication? DHH raised this as a simple background point in a talk at Stanford, for me this was the most profound point he made. How can we increase coordination on teams? How can we all get on the same page? It's not complicated, it makes so much sense, if the whole team has ideas instead of drawing pictures write code. Instead of trying to explain it, do it.
+
+Why has this not occurred to me before. If I want someone to understand what I mean why not code it up. If it's wrong let's change it. So simple, but so effective. This is maybe why Rails or Django would work so well for software development. It doesn't take you all week to set-up a first run or create some prototypes, your free you to create.
+
+Communication through work

@@ -1,0 +1,14 @@
+---
+layout: post
+title: Parallel Programming, the Future?
+---
+
+It's interesting how software development has been progressing along, with only small adoptions in certain industries to parallel programming. The gaming industry works closely with hardware manufacturers to ensure fast games, that run efficiently on the hardware provided by the console maker. OpenCl, OpenMP and other technologies are responses to these issues.
+
+Why is the rest of the software world behind? Is it so hard to write parallel software? It turns out it is quite hard not just to write software but to assert that parallel software is correct. There are several issues that seems to crop up as a consequence of our lack of knowledge in parallel systems. So what do we do?
+
+I read a great paper from the GOF the other day that had was titled Re-engineering Parallelism for Legacy systems or something to that effect. It had some great suggestions on what to do to when working with legacy systems. I'm definitely going to give it a try at some point. 
+
+I think it's a paper that we should all read. Since at some point we ALL work on "Legacy" systems.....
+
+Here is the link: <a href="http://portal.acm.org/citation.cfm?id=1228980">Re-enginnering for Parallelism: an entry point for into PLPP for legacy systems.</a>

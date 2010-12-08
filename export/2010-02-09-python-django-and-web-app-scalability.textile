@@ -1,0 +1,16 @@
+---
+layout: post
+title: Python, Django and web app scalability
+---
+
+So since vHive.ca will be coming online within the next month or so I thought it was a good time to discuss some of the challenges I've encountered / anticipate. Python is a great language. I am falling in love with the Django framework only because I have used the alternative ie: php and other scripting for web. Now I am enjoying python and the Django framework but I'm a little worried here is why:
+
+First I must confess that scalability is a great problem to have and my friend Jason and I have discussed this many of times. I think <a href="http://gettingreal.37signals.com/">37 Signals</a> is a large promoter of this idea. But what if programming is changing? What if we want to build something that won't go out of style in 2 years? What if we want to plan for scalability?
+
+Multi-core, cloud, cluster, they are all <a href="http://www.brianmadden.com/blogs/gabeknuth/archive/2009/10/13/why-i-think-quot-cloud-quot-is-a-buzzword-encapsulating-all-other-buzzwords-a-buzzword-cloud-if-you-will.aspx">HUGE buzzwords</a>. What do these mean for the future of web apps? I'm sad to say that things don't look promising for frameworks such as ROR or Django. They seem to favour single databases and one would have to really delve into the depths of the code to address some cloud computing.
+
+So what can we do? Since I haven't used ROR in a "made a sweet project" kind of way I can't comment. What about Django? Well here is what I see. Since Django loves the single database, which makes sense I guess for small apps but not Twitter, we could make Django more multi-core / cloud friendly. How could we do that? here is what I propose:
+
+Since web apps are very much subject to the network they run on we need to look at the client server model. Can we deploy more nodes? What about geographic servers? What about <a href="http://en.wikipedia.org/wiki/OpenCL">OpenCL</a> for python??? Now imagine if we have our python code running on top of some heterogeneous processors in OpenCL, and it ran fast in multiple locations? Could we speed things up? I think so. I proposed that maybe we need to look at the GIL in python and maybe take a peek at OpenCL.
+
+Get ready for vHive.ca launch March 2010.
