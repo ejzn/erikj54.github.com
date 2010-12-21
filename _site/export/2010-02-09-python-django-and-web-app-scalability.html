@@ -1,16 +1,64 @@
-<p>So since vHive.ca will be coming online within the next month or so I thought it was a good time to discuss some of the challenges I&#8217;ve encountered / anticipate. Python is a great language. I am falling in love with the Django framework only because I have used the alternative ie: php and other scripting for web. Now I am enjoying python and the Django framework but I&#8217;m a little worried here is why:</p>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="My personal blog, it may not be pretty but it's me." />
+<meta name="keywords" content="Erik Johnson, Erik J, erikj54@gmail.com, @erikj54, erikj" />
+<title>Python, Django and web app scalability</title>
+<link href="/css/main.css" rel="stylesheet" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Reenie+Beanie&subset=latin' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="/js/jquery.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+	<div class="header">
+		<h3>Erik Johnson's Blog</h3>
+		<a href="http://erikj54.github.com">
+			<img src="/images/fiftyfour-label.gif" border="0"/>
+		</a>
+		<div id="links">
+			<ul id="nav-links">
+				<li><a href="http://erikj54.github.com">Blog</a></li>
+				<li><a href="http://twitter.com/erikj54">Twitter</a></li>
+				<li><a href="http://www.facebook.com/profile.php?id=510219946">Facebook</a></li>
+				<li><a href="mailto:erikj54@gmail.com">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="main-content">
+	<p>So since vHive.ca will be coming online within the next month or so I thought it was a good time to discuss some of the challenges I&#8217;ve encountered / anticipate. Python is a great language. I am falling in love with the Django framework only because I have used the alternative ie: php and other scripting for web. Now I am enjoying python and the Django framework but I&#8217;m a little worried here is why:</p>
+<p>First I must confess that scalability is a great problem to have and my friend Jason and I have discussed this many of times. I think <a href="http://gettingreal.37signals.com/">37 Signals</a> is a large promoter of this idea. But what if programming is changing? What if we want to build something that won&#8217;t go out of style in 2 years? What if we want to plan for scalability?</p>
+<p>Multi-core, cloud, cluster, they are all <a href="http://www.brianmadden.com/blogs/gabeknuth/archive/2009/10/13/why-i-think-quot-cloud-quot-is-a-buzzword-encapsulating-all-other-buzzwords-a-buzzword-cloud-if-you-will.aspx"><span class="caps">HUGE</span> buzzwords</a>. What do these mean for the future of web apps? I&#8217;m sad to say that things don&#8217;t look promising for frameworks such as <span class="caps">ROR</span> or Django. They seem to favour single databases and one would have to really delve into the depths of the code to address some cloud computing.</p>
+<p>So what can we do? Since I haven&#8217;t used <span class="caps">ROR</span> in a &#8220;made a sweet project&#8221; kind of way I can&#8217;t comment. What about Django? Well here is what I see. Since Django loves the single database, which makes sense I guess for small apps but not Twitter, we could make Django more multi-core / cloud friendly. How could we do that? here is what I propose:</p>
+<p>Since web apps are very much subject to the network they run on we need to look at the client server model. Can we deploy more nodes? What about geographic servers? What about <a href="http://en.wikipedia.org/wiki/OpenCL">OpenCL</a> for python??? Now imagine if we have our python code running on top of some heterogeneous processors in OpenCL, and it ran fast in multiple locations? Could we speed things up? I think so. I proposed that maybe we need to look at the <span class="caps">GIL</span> in python and maybe take a peek at OpenCL.</p>
+<p>Get ready for vHive.ca launch March 2010.</p>
+
+<div id="disqus_thread"></div>
+	</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+var disqus_shortname = 'erikjohnson54blog'; // required: replace example with your forum shortname
+
+// The following are highly recommended additional parameters. Remove the slashes in front to use.
+ var disqus_identifier = "";
+ var disqus_url = "http://erikj54.github.com/export/2010-02-09-python-django-and-web-app-scalability.html";
+
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function() {
+ var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+ dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+ (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+ })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
 
-	<p>First I must confess that scalability is a great problem to have and my friend Jason and I have discussed this many of times. I think <a href="http://gettingreal.37signals.com/">37 Signals</a> is a large promoter of this idea. But what if programming is changing? What if we want to build something that won&#8217;t go out of style in 2 years? What if we want to plan for scalability?</p>
-
-
-	<p>Multi-core, cloud, cluster, they are all <a href="http://www.brianmadden.com/blogs/gabeknuth/archive/2009/10/13/why-i-think-quot-cloud-quot-is-a-buzzword-encapsulating-all-other-buzzwords-a-buzzword-cloud-if-you-will.aspx"><span class="caps">HUGE</span> buzzwords</a>. What do these mean for the future of web apps? I&#8217;m sad to say that things don&#8217;t look promising for frameworks such as <span class="caps">ROR</span> or Django. They seem to favour single databases and one would have to really delve into the depths of the code to address some cloud computing.</p>
-
-
-	<p>So what can we do? Since I haven&#8217;t used <span class="caps">ROR</span> in a &#8220;made a sweet project&#8221; kind of way I can&#8217;t comment. What about Django? Well here is what I see. Since Django loves the single database, which makes sense I guess for small apps but not Twitter, we could make Django more multi-core / cloud friendly. How could we do that? here is what I propose:</p>
-
-
-	<p>Since web apps are very much subject to the network they run on we need to look at the client server model. Can we deploy more nodes? What about geographic servers? What about <a href="http://en.wikipedia.org/wiki/OpenCL">OpenCL</a> for python??? Now imagine if we have our python code running on top of some heterogeneous processors in OpenCL, and it ran fast in multiple locations? Could we speed things up? I think so. I proposed that maybe we need to look at the <span class="caps">GIL</span> in python and maybe take a peek at OpenCL.</p>
-
-
-	<p>Get ready for vHive.ca launch March 2010.</p>
+</body>
+</html>

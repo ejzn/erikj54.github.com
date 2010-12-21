@@ -133,3 +133,20 @@ div#twitter-box
 	height:400px;
 	float:left;
 }
+
+ul.post-tools
+{
+	list-style:none;
+	height:20px;
+}
+
+ul.post-tools li{
+	float:left;
+	margin-left:10px;
+}
+
+ul.post-tools li a {
+	text-decoration:none;
+	
+}
+

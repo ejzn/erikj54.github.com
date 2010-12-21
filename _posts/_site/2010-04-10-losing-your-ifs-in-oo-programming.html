@@ -1,0 +1,11 @@
+<p>Today I was faced with the task of determining how to render some abstract set of objects in a <span class="caps">GUI</span>. The task is not really relevant but it was a network topology. Now I could have easily done the following:</p>
+<p>if topologyType == 1:</p>
+<p>do something</p>
+<p>else if topologyType == 2:</p>
+<p>do something else</p>
+<p>Instead of doing this I did the following:</p>
+<p>1. Created an interface with a do somethingMethod.</p>
+<p>2. Created 2 classes that implement this interface.</p>
+<p>3. Put the code from the if statements into the doSomething() method.</p>
+<p>4. Called do something on the interface type.</p>
+<p>Ah how I hate switch statements, I think I&#8217;ve finally realized how we can avoid these statements for meaningless things. Yes I know the classes I created are small and now I have a couple more files&#8230;.but seriously it reads wayyyyy better.</p>
