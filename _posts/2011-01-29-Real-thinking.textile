@@ -3,5 +3,5 @@ layout: post
 title: Some real thinking
 ---
 <p>
-A new initiative called the <a href"http://www.thestar.com/news/canada/article/929093--coffee-party-of-canada-proposes-better-way-to-spend-coffee-break">Coffee Party of Canada</a> attempts to get people to spend their coffee breaks holding politicians more accountable. It's a great concept, and to me really underlines how small strange ideas can question our perception. I love the ingenuity.
+A new initiative called the <a href="http://www.thestar.com/news/canada/article/929093--coffee-party-of-canada-proposes-better-way-to-spend-coffee-break">Coffee Party of Canada</a> attempts to get people to spend their coffee breaks holding politicians more accountable. It's a great concept, and to me really underlines how small strange ideas can question our perception. I love the ingenuity.
 </p>
