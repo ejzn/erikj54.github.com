@@ -4,7 +4,7 @@ title: FiftyFour
 style: css/main.css
 ---
 
-{% for post in site.posts limit:5 %}
+{% for post in site.posts limit:10 %}
 	<div class="post">
 		<h2><a href="{{post.url}}">{{post.title}}</a></h2>
 		{{post.content}}

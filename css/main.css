@@ -10,7 +10,9 @@ div.container
 		width:		1024px;
 		display:	block;
 		margin:		auto;
+    margin-left:100px;
 		padding:	5px;
+    min-width:1000px;
 	}
 
 div.header
@@ -28,10 +30,12 @@ div.header img{
 div.main-content
 	{
 		height:80%;
-		width:750px;
+		min-width:750px;
+    width:750px;
 		padding:20px;
 		margin:auto;
-	}
+	
+  }
 
 div.main
 	{
