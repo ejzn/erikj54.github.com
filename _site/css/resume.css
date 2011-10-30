@@ -15,16 +15,17 @@ div.container
 
 div.header
 {
-	height:50px;
+	height:100px;
 	width:100%;
 	padding:10px;
-	background:#ccc;
+	background:#eee;
 }
 div.header h3 
 {
+	margin-top:30px;
 	float:left;
 }
-div.header h4
+div.header .rightHead
 {
 	float:right;
 }
